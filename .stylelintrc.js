@@ -27,6 +27,7 @@ module.exports = {
           'responsive',
           'variants',
           'screen',
+          'tailwind',
         ],
       },
     ],

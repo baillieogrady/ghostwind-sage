@@ -3,8 +3,8 @@
 @include('partials.head')
 <body @php body_class("bg-gray-200 font-sans leading-normal tracking-normal") @endphp>
   <div class="wrapper" role="document">
-    @php do_action('get_header') @endphp
-    @include('partials.header')
+    {{-- @php do_action('get_header') @endphp --}}
+    {{-- @include('partials.header') --}}
     <main class="main">
       @yield('content')
     </main>

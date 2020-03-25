@@ -1,10 +1,16 @@
-<!--Header-->
-<div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('@asset('images/cover.jpg')'); height: 60vh; max-height:460px;">
-  <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
-    <!--Title-->
-    <p class="text-white font-extrabold text-3xl md:text-5xl">
-      👻 Ghostwind CSS
-    </p>
-    <p class="text-xl md:text-2xl text-gray-500">Welcome to my Blog</p>
-  </div>
-</div>
+{{-- header --}}
+<nav class="bg-gray-900 p-4 mt-0 w-full">
+	<div class="container mx-auto flex items-center justify-center sm:justify-start">
+		<div class="flex text-white font-extrabold">
+		<a class="hidden sm:block flex text-white text-base no-underline hover:text-white hover:no-underline" href="{{ site_url() }}"> 
+				<span class="w-0 md:w-auto pl-1">{{ bloginfo('name') }}</span>
+			</a>
+		</div>
+		<div class="flex pl-4 text-sm">
+			@if (has_nav_menu('primary_navigation'))
+				{!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav list-reset flex justify-between flex-1 md:flex-none items-center', 'container' => false]) !!}
+			@endif
+		</div>
+	</div>
+</nav>
+{{-- /header --}}

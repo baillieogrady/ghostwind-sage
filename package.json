@@ -94,11 +94,13 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "jquery": "^3.3.1",
     "lozad": "^1.14.0",
+    "popper.js": "^1.14.3",
     "prop-types": "^15.7.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "skeleton-sass-official": "^3.1.6",
     "skeleton-scss": "^2.0.4",
-    "tachyons-sass": "^4.9.5"
+    "tachyons-sass": "^4.9.5",
+    "tippy.js": "^6.1.0"
   }
 }

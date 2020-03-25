@@ -45,7 +45,9 @@ class App extends Controller
                 'content' => apply_filters('get_the_content', $post->post_content),
                 'thumbnail' => get_the_post_thumbnail_url($post->ID, 'large'),
                 'avatar' => get_avatar_url($post->ID),
+                'author' => get_the_author_meta('user_nicename', $post->post_author),
                 'permalink' => get_the_permalink($post->ID),
+                'category' => get_the_category($post->ID)[0]->name,
             ];
         }, $posts);
     }

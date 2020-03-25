@@ -7,7 +7,7 @@
          <span class="text-base text-gray-200">{{ bloginfo('name') }}</span>
         </a>
       </div>
-      <div class="flex w-full pt-2 justify-center md:w-1/2 md:justify-end">
+      <div class="flex w-full pt-2 justify-center md:w-1/2 md:justify-end nav">
         @if (has_nav_menu('primary_navigation'))
           {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'list-reset flex justify-between flex-1 md:flex-none items-center']) !!}
         @endif

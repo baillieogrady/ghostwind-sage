@@ -1,9 +1,18 @@
 # Ghostwind sage
-[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
-## What is Ghostwind sage?
-Ghostwind-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme implementing the [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind-home) blog template.
+[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/ghostwind-sage#info=devDependencies)
 
+Ghostwind-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme implementing the [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind-home) html templates.
+
+## Usage
+
+### Installation
+
+[Download](https://baillieogrady.com/downloads/ghostwind-sage.zip) the production built theme and upload via the WordPress theme uploader at the following url on your website:
+
+```
+https://yourwebsite.com/wp-admin/theme-install.php
+```
 
 ### Requirements
 

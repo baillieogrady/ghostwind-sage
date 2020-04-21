@@ -4,14 +4,15 @@
 
 Ghostwind-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme implementing the [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind-home) html templates.
 
-## Usage
 
-### Installation
+## Theme development
 
-[Download](https://baillieogrady.com/downloads/ghostwind-sage.zip) the production built theme and upload via the WordPress theme uploader at the following url on your website:
+## Installation
+
+Install theme into the WordPress themes directory
 
 ```
-https://yourwebsite.com/wp-admin/theme-install.php
+$ git clone https://github.com/baillieogrady/ghostwind-sage
 ```
 
 ### Requirements
@@ -23,16 +24,6 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
-
-## Installation
-
-Install theme into the WordPress themes directory
-
-```
-$ git clone https://github.com/baillieogrady/ghostwind-sage
-```
-
-## Theme development
 
 *See full roots sage source & setup [here](https://github.com/roots/sage)*
 
@@ -47,9 +38,3 @@ $ git clone https://github.com/baillieogrady/ghostwind-sage
 * `yarn start` — Compile assets when file changes are made, start Browsersync session
 * `yarn build` — Compile and optimize the files in your assets directory
 * `yarn build:production` — Compile assets for production
-
-## Contributing
-
-```
-$ git clone https://github.com/baillieogrady/ghostwind-sage
-```

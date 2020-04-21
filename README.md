@@ -7,7 +7,7 @@ Ghostwind-sage is a custom WordPress theme built on the [Sage](https://github.co
 
 ## Theme development
 
-## Installation
+### Installation
 
 Install theme into the WordPress themes directory
 
